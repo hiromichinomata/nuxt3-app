@@ -1,5 +1,12 @@
 <template>
   <div>
-    <h1>Hello World</h1>
+    <NuxtLayout :name='layout'>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+
+<script setup>
+  const admin = false;
+  const layout = admin ? 'custom' : 'default';
+</script>
