@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav>カスタムレイアウト</nav>
+    <NavNavbar />
     <slot />
   </div>
 </template>
